@@ -3,9 +3,9 @@
 
 ## Programmierer:
 
-  [BlackArroww](https://github.com/BlackArroww) = Tiziano Streubel
+  [_BlackArroww_](https://github.com/BlackArroww) = Tiziano Streubel
 
-  [Asusgamer40](https://github.com/Asusgamer40) = Samuel Hoppe
+  [_Asusgamer40_](https://github.com/Asusgamer40) = Samuel Hoppe
 
 ---
 
@@ -17,7 +17,7 @@
 
 ## Betreuer:
 
-[smartin-singen](https://github.com/smartin-singen) = Stefan Martin
+[_smartin-singen_](https://github.com/smartin-singen) = Stefan Martin
 
 Herr Stephan Strittmatter
 
@@ -29,13 +29,13 @@ Ein browserbasierter Escaperoom in Textform, mit verschiedenen Rätseln aus vers
 
 1. Naturwissenschaften
 2. Geschichte
-3. Sprachen
+3. Sprachen 
 
 usw.
 
 ---
 
-## Programmiersprache:
+## Programmiersprachen:
 
 Java, JavaScript, (HTML)
 
