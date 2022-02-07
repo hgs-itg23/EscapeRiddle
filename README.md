@@ -1,4 +1,4 @@
-# **EscapeRiddle**
+# **EscapeRiddle - The browser game**
 ---
 
 ## Programmierer:
