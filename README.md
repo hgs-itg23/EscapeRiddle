@@ -33,6 +33,8 @@ Ein browserbasierter Escaperoom in Textform, mit verschiedenen Rätseln aus vers
 
 usw.
 
+Man ließt __vielleicht__ ein paar Zahlen/Buchstaben aus einem vorgegeben Text herraus und gibt diesen als "Code" in ein Eingabefeld. So kommt man ins nächste Rätsel. Am Ende muss man einen 6-stelligen Code mithilfe eines weiteren Rätsels, was die Reihenfolge der Zahlen/Buchstaben angibt, ins "Zahlenschloss" eingeben. Diese "Keynumbers/Keyletters" bekommt der Spieler nach jedem Rätsel.
+
 ---
 
 ## Programmiersprachen:
