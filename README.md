@@ -23,7 +23,7 @@ Herr Stephan Strittmatter
 
 ---
 
-##Ziel des Projektes:
+## Ziel des Projektes:
 
 Ein browserbasierter Escaperoom in Textform, mit verschiedenen Rätseln aus verschiedenen Themengebieten wie z.B:
 
@@ -35,7 +35,7 @@ usw.
 
 ---
 
-##Programmiersprache:
+## Programmiersprache:
 
 Java, JavaScript, (HTML)
 
