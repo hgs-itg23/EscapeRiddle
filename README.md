@@ -22,3 +22,21 @@
 Herr Stephan Strittmatter
 
 ---
+
+##Ziel des Projektes:
+
+Ein browserbasierter Escaperoom in Textform, mit verschiedenen Rätseln aus verschiedenen Themengebieten wie z.B:
+
+1. Naturwissenschaften
+2. Geschichte
+3. Sprachen
+
+usw.
+
+---
+
+##Programmiersprache:
+
+Java, JavaScript, (HTML)
+
+---
