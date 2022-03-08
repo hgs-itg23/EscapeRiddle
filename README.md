@@ -25,13 +25,8 @@ Herr Stephan Strittmatter
 
 ## Ziel des Projektes:
 
-Ein browserbasierter Escaperoom in Textform, mit verschiedenen Rätseln aus verschiedenen Themengebieten wie z.B:
+Ein browserbasierter Schloss-Escaperoom, mit verschiedenen Rätseln aus ähnlichen Themengebieten zum Thema Schloss/Burg u.ä. .
 
-1. Naturwissenschaften
-2. Geschichte
-3. Sprachen 
-
-usw.
 
 Man ließt __vielleicht__ ein paar Zahlen/Buchstaben aus einem vorgegeben Text herraus und gibt diesen als "Code" in ein Eingabefeld. So kommt man ins nächste Rätsel. Am Ende muss man einen 6-stelligen Code mithilfe eines weiteren Rätsels, was die Reihenfolge der Zahlen/Buchstaben angibt, ins "Zahlenschloss" eingeben. Diese "Keynumbers/Keyletters" bekommt der Spieler nach jedem Rätsel.
 
@@ -39,6 +34,6 @@ Man ließt __vielleicht__ ein paar Zahlen/Buchstaben aus einem vorgegeben Text h
 
 ## Programmiersprachen:
 
-Java, JavaScript, (HTML)
+Java, JavaScript, HTML
 
 ---
