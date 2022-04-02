@@ -1,2 +1,58 @@
-#Navigation{
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&displayswap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif ;
+}
+
+#Start{
+    min-height: 100vh;
+    background: linear-gradient(#00382f,#00e0bb);
+}
+
+#nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .Logo{
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .nav li{
+    list-style: none;
+    margin-left: 22px;
+}
+
+header .nav li a{
+    text-decoration: none;
+    padding: 8px 17px;
+    color: white;
+    border-radius: 18px;
+}
+
+header .nav li a:hover,
+header .nav li a.aktiv
+{
+    background: white;
+    color: #00382f;
 }
