@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&displayswap');
+        body{
+            background-color: black;
+        }
+        #button{
+            border-radius: 20px;
+            height: 60px;
+            width: 300px;
+            font-size: 22px;
+            font-family: 'Poppins', sans-serif ;
+            font-weight: 700;
+            background-color: white;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: none;
+            display: block;
+            margin-top: 200px;
+        }
+        h1{
+            color: white;
+        }
+        #ueberschrift{
+            text-align: center;
+            font-size: 150px;
+            font-family: 'Poppins';
+        }
