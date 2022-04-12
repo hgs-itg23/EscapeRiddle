@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&displayswap');
         body{
-            background-color: black;
+            background: linear-gradient(#00382f,#00e0bb);
         }
         #button{
             border-radius: 20px;

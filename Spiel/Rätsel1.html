@@ -4,7 +4,8 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&displayswap');
 body{
-    background-color: black;
+    min-height: 110vh;
+    background: linear-gradient(#00382f,#00e0bb);
 }
 #Text{
 color: white;
@@ -25,8 +26,51 @@ font-size: 30px;
     text-align: center;
     font-family: 'Poppins';
 }
+#button{
+            border-radius: 20px;
+            height: 60px;
+            width: 300px;
+            font-size: 22px;
+            font-family: 'Poppins', sans-serif ;
+            font-weight: 700;
+            background-color: white;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: none;
+            display: block;
+            margin-top: 30px;
+        }
+        #Lösung{
+            border-radius: 20px;
+            height: 60px;
+            width: 300px;
+            font-size: 22px;
+            font-family: 'Poppins', sans-serif ;
+            font-weight: 700;
+            background-color: white;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: none;
+            display: block;
+            margin-top: 30px;
+        }
     </style>
+    <script>
+function Prüfe(){
+    if(document.getElementById('Lösung').value == 'Ödipus'){
+        window.location.href= 'RichtigSeite.html';
+    }
+    else{
+        document.getElementById('Lösung').value = 'Falsch';
+    }
+    
+}
+
+    </script>
   <title>Document</title>
+
 </head>
 <body>
     <h1 id="Text" class="ueberschrift">Sphinx:</h1>
@@ -45,8 +89,12 @@ font-size: 30px;
 <br>
 <br>
 <br>
-<form action=""></form>
-<input type="text"  id="Loesung">Lösung</input>
-
+<input type="text" id='Lösung'>
+<button id="button" onclick="Prüfe();">
+    Prüfe
+</button>
+<button id="button" onclick="window.location.href= 'Spiel.html'">
+    Zurück
+</button>
     </body>
 </html>
