@@ -3,10 +3,7 @@
 <head>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&displayswap');
-body{
-    min-height: 110vh;
-    background: linear-gradient(#00382f,#00e0bb);
-}
+
 #Text{
 color: white;
 text-align: center;
@@ -67,6 +64,14 @@ function Prüfe(){
     }
     
 }
+document.onkeyup = enter;
+function enter(){
+    
+        if(window.event.keyCode == 13){
+        Prüfe();
+        
+    }
+}
 
     </script>
   <title>Document</title>
@@ -89,7 +94,7 @@ function Prüfe(){
 <br>
 <br>
 <br>
-<input type="text" id='Lösung'>
+<input type="text" id='Lösung' onload="enter();">
 <button id="button" onclick="Prüfe();">
     Prüfe
 </button>
