@@ -72,6 +72,9 @@ function enter(){
         
     }
 }
+function lösche(){
+    document.getElementById('Lösung').value = '';
+}
 
     </script>
   <title>Document</title>
@@ -94,7 +97,7 @@ function enter(){
 <br>
 <br>
 <br>
-<input type="text" id='Lösung' onload="enter();">
+<input onclick='lösche();' type="text" id='Lösung' onload="enter();">
 <button id="button" onclick="Prüfe();">
     Prüfe
 </button>
