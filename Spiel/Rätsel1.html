@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
    <script src="TextEingabe.js"></script>
+   <script src="KeyLetter.js"></script>
    <script>
-
     let Lösung = 'Ödipus';
-
+    let keyletter = 'A';
    </script>
   <title>Rätsel1</title>
 
 </head>
 <link rel="stylesheet" href="style.css">
-<body onload="$(window).scrollTop(0);">
+<body onload="storage();">
     <h1 id="Text" class="ueberschrift">Sphinx:</h1>
     <br>
     <br>
@@ -28,7 +28,7 @@
 <br>
 <br>
 <br>
-<input onclick='lösche();' type="text" id='Lösung' onload="enter();">
+<input onclick='clear();' type="text" id='Lösung' onload="enter();">
 <button id="button" onclick="check();">
     Prüfe
 </button>

@@ -1,10 +1,6 @@
+function storage(){
+    let a = localStorage.setItem('letter', keyletter);
+}
 function ready(){
-    document.getElementById(keyletter).value = letter;
+    document.getElementsById('keyletter').value = a;
 }
-
-function storage (){
-
-    localStorage.setItem(letter, keyletter);
-
-}
-

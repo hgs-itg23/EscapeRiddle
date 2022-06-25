@@ -16,6 +16,6 @@ function enter(){
         
     }
 }
-function lösche(){
+function clear(){
     document.getElementById('Lösung').value = '';
 }
