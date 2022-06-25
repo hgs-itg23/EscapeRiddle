@@ -23,3 +23,53 @@
             font-size: 150px;
             font-family: 'Poppins';
         }
+
+        #Text{
+            color: white;
+            text-align: center;
+            font-family: 'Poppins';
+            }
+            .ueberschrift{
+                font-size: 50px;
+            }
+            .ueberschrift4{
+            font-size: 30px;
+            }
+            #Loesung{
+                margin-right: auto;
+                margin-left: auto;
+                display: block;
+                font-size: 30px;
+                text-align: center;
+                font-family: 'Poppins';
+            }
+            #button{
+                        border-radius: 20px;
+                        height: 60px;
+                        width: 300px;
+                        font-size: 22px;
+                        font-family: 'Poppins', sans-serif ;
+                        font-weight: 700;
+                        background-color: white;
+                        text-align: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                        border: none;
+                        display: block;
+                        margin-top: 30px;
+                    }
+                    #Lösung{
+                        border-radius: 20px;
+                        height: 60px;
+                        width: 300px;
+                        font-size: 22px;
+                        font-family: 'Poppins', sans-serif ;
+                        font-weight: 700;
+                        background-color: white;
+                        text-align: center;
+                        margin-left: auto;
+                        margin-right: auto;
+                        border: none;
+                        display: block;
+                        margin-top: 30px;
+                    }

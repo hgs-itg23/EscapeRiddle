@@ -1,5 +1,5 @@
 function check(){
-    if(document.getElementById('Checkbox1').value == 'on'){
+    if(document.getElementById('Lösung').value == 'on'){
       window.location.href = "RichtigSeite.html";
     }
 }

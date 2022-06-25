@@ -1,85 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <style>
-        @import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&displayswap');
+   <script src="TextEingabe.js"></script>
+   <script>
 
-#Text{
-color: white;
-text-align: center;
-font-family: 'Poppins';
-}
-.ueberschrift{
-    font-size: 50px;
-}
-.ueberschrift4{
-font-size: 30px;
-}
-#Loesung{
-    margin-right: auto;
-    margin-left: auto;
-    display: block;
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Poppins';
-}
-#button{
-            border-radius: 20px;
-            height: 60px;
-            width: 300px;
-            font-size: 22px;
-            font-family: 'Poppins', sans-serif ;
-            font-weight: 700;
-            background-color: white;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-            border: none;
-            display: block;
-            margin-top: 30px;
-        }
-        #Lösung{
-            border-radius: 20px;
-            height: 60px;
-            width: 300px;
-            font-size: 22px;
-            font-family: 'Poppins', sans-serif ;
-            font-weight: 700;
-            background-color: white;
-            text-align: center;
-            margin-left: auto;
-            margin-right: auto;
-            border: none;
-            display: block;
-            margin-top: 30px;
-        }
-    </style>
-    <script>
-function check(){
-    if(document.getElementById('Lösung').value == 'Ödipus'){
-        window.location.href= 'RichtigSeite.html';
-    }
-    else{
-        document.getElementById('Lösung').value = 'Falsch';
-    }
-    
-}
-document.onkeyup = enter;
-function enter(){
-    
-    if(window.event.keyCode == 13){
-        prüfe();
-        
-    }
-}
-function lösche(){
-    document.getElementById('Lösung').value = '';
-}
+    let Lösung = 'Ödipus';
 
-    </script>
-  <title>Document</title>
+   </script>
+  <title>Rätsel1</title>
 
 </head>
+<link rel="stylesheet" href="style.css">
 <body onload="$(window).scrollTop(0);">
     <h1 id="Text" class="ueberschrift">Sphinx:</h1>
     <br>
