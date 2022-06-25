@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <head>
+    <script>
+    function check(){
+      if(document.getElementById('Checkbox1').value == 'on'){
+        window.location.href = "RichtigSeite.html";
+            
+      }
+  }
+  </script>
     <link rel="stylesheet" href="style.css">
     <title>Spiel</title>
 </head>
@@ -13,6 +21,17 @@
             <button class="button" onclick="window.location.href='RichtigSeite.html'">Horus</button>
             <button class="button" onclick="window.location.href='FalschSeite.html' ">Ptah</button>
           </div>
+          <div id="question">Welcher ägyptische Gott wurde als Falke dargestellt? </div>
+          <br>
+          <h4>Seth</h4>
+          <input id="Checkbox1" type="checkbox">
+          <h4>Osiris</h4>
+          <input id="Checkbox2" type="checkbox">
+          <h4>Horus</h4>
+          <input id="Checkbox3" type="checkbox">
+          <h4>Ptah</h4>
+          <input id="Checkbox4" type="checkbox">
         </div>
+        <button onclick='check();'>Prüfe</button>
 </body>
 </html>
