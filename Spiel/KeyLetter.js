@@ -1,5 +1,7 @@
 function ready(){
+
     document.getElementById(keyletter).value = letter;
+    
 }
 
 function storage (){

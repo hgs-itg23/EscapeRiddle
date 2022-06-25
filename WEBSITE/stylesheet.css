@@ -24,7 +24,7 @@
 
 header .Logo{
     color: white;
-    font-weight: 700;
+    font-weight: 760;
     text-decoration: none;
     font-size: 2em;
     text-transform: uppercase;
@@ -60,8 +60,8 @@ header .nav li a.aktiv
     position: center;
     margin: auto;
     color: white;
-    font-size: 6vw;
-    padding: 300px;
+    font-size: 80px;
+    padding: 200px;
 
 }
 .wrap {
@@ -81,7 +81,7 @@ header .nav li a.aktiv
     font-weight: 700;
     color: white;
     background: #045f58;
-  background: linear-gradient(90deg, rgb(0, 112, 99) 0%, rgb(0, 177, 159) 100%);
+    background: linear-gradient(90deg, rgb(0, 112, 99) 0%, rgb(0, 177, 159) 100%);
     border: none;
     border-radius: 1000px;
     box-shadow: 12px 12px 24px rgba(79,209,197,.64);
