@@ -1,16 +1,19 @@
-## Wie funktioniert das Spiel?
-Klicke auf den Start Knopf und beginne das Rätsel-Abenteuer. Nun siehst du das erste Rätsel.
+## Q: Wie funktioniert das Spiel?
+A: Klicke auf den Start Knopf und beginne das Rätsel-Abenteuer. Nun siehst Du das erste Rätsel.
 
 Die Rätsel können folgendermaßen aufgebaut sein:
 
-Entweder du hast ein Multiple Choice Rätsel, bei dem du zwischen 4 Antwortmöglichkeiten wählen kannst, oder ein Rätsel wo du die Antwort selber in das Antwortfeld schreiben musst. Bei beiden Rätselformen gibt es unterschiedliche Herangehensweisen, aber keine Angst dir wird genau gesagt was gefragt ist! 
+Ein Rätsel-Typ kann sein,dass Du ein Multiple-Choice Rätsel vor Dir hast, bei dem du zwischen 4 Antwortmöglichkeiten wählen kannst aber es nur eine richtige Antwort gibt. Oder Du musst ein Rätsel lösen,wo Du die Antwort selber in das Antwortfeld schreiben musst. Bei beiden Rätselformen gibt es unterschiedliche Herangehensweisen, aber keine Angst Dir wird genau gesagt was gefragt ist! 
 
-## HILFE mir wird nach dem richtigen lösen eines Rätsel ein komischer Buchstabe angezeit! Was ist das?
+Falls Deine Antwort richtig war wirst Du weiter geleitet und Du musst auf einen Button klicken um weiter zu gelangen.
 
-Das sind die sogenannten "Keycharakter" oder auch Schlüsselzeichen genannt. Diese brauchst du für das letzte Masterrätsel um schlussendlich den Escaperoom zu verlassen!
+## Q: HILFE mir wird nach dem richtigen lösen eines Rätsel ein komischer Buchstabe angezeit! Was ist das?
 
-## Das Masterrätsel
+A: Das sind die sogenannten "Keycharakter" oder auch Schlüsselzeichen genannt. Diese brauchst Du für das letzte Masterrätsel um schlussendlich den Escaperoom zu verlassen! Schreib Ihn Dir am besten auf oder du musst nach beenden aller Rätsel nochmal zu jedem einzelnen Rätsel um zu schauen was es für ein Keyletter war :)
+Dann klickst Du auf den "Weiter" Button und gelangst zu einer Art Übersicht auf alle Rätsel.
 
-Hier brauchst du die oben genannten "Keycharakter"! Es wird dir ein Text vorgegeben und in diesem sind einzelne Lücken. Hier schreibst du nun einfach die "Keycharakter" in der Reihenfolge, die du glaubst ist richtig. Falls deine Vermutung stimmt hast du das Spiel durchgespielt! 
+## Q: Das Masterrätsel
+
+A: Sobald Du alle Rätsel gelöst hast, kannst Du Dich am Masterrätsel probieren. Hier brauchst Du alle "Keycharakter" um die Lücken in einem Dir vorliegenden  Text zu füllen und falls deine Vermutung stimmt hast du das Spiel durchgespielt! 
 
 # Also schaffst du alle Rätsel und entkommst der Pyramide des Todes?
