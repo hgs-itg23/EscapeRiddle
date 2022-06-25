@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <script src="MultipleChoice.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Spiel</title>
+</head>
+<body>
+    <div class="container">
+        <div id="question-container" class="hide">
+          <div id="question">Welcher ägyptische Gott wurde als Falke dargestellt? </div>
+          <div id="answer-buttons" class="btn-grid">
+            <button class="button" onclick="window.location.href= 'FalschSeite.html' "> Seth </button>
+            <button class="button" onclick="window.location.href= 'FalschSeite.html' "> Osiris </button>
+            <button class="button" onclick="window.location.href='RichtigSeite.html' ">Horus</button>
+            <button class="button" onclick="window.location.href= 'FalschSeite.html' ">Ptah</button>
+          </div>
+          <div id="question">Welcher ägyptische Gott wurde als Falke dargestellt? </div>
+          <br>
+          <h4>Seth</h4>
+          <input id="Checkbox1" type="checkbox">
+          <h4>Osiris</h4>
+          <input id="Checkbox2" type="checkbox">
+          <h4>Horus</h4>
+          <input id="Checkbox3" type="checkbox">
+          <h4>Ptah</h4>
+          <input id="Checkbox4" type="checkbox">
+        </div>
+        <button onclick='check();'>Prüfe</button>
+</body>
+</html>
