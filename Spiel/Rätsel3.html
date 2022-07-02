@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="Lösungsspeicher.js"></script>
+    <script src="enterkey.js"></script>
+   <script src="TextEingabe.js"></script>
+   <script src="KeyLetter.js"></script>
+   <script>
+    localStorage.setItem('Rätsel3','true');
+    var Lösung = '19607';
+   </script>
+  <title>Rätsel1</title>
+
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1 id="Text" class="ueberschrift">Sphinx:</h1>
+    <br>
+    <br>
+    <br>
+    <h4 id="Text" class="ueberschrift4">Es gibt sieben Häuser, in denen jeweils sieben Katzen leben. Jede Katze hat sieben Mäuse gefressen, die ihrerseits jede sieben Kornähren verspeist haben, die jeweils sieben Samen enthielten. Wie viele Objekte sind es insgesamt?</h4>
+<br>
+<br>
+<br>
+<input onclick="reset();" type="text" class ="eingabefeld" id='Lösung' onload="enter();">
+<button class="button check" onclick="check();">
+    Prüfe
+</button>
+<button class="button check back" onclick="window.location.href= 'MenueSeite.html'">
+    Zurück
+</button>
+    </body>
+</html>
