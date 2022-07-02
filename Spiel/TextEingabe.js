@@ -6,10 +6,7 @@ function check(){
     else{
         document.getElementById('Lösung').value = 'Falsch';
     }
-    
 }
 function reset(){
         document.getElementById('Lösung').value = '';
-
-    
 }
