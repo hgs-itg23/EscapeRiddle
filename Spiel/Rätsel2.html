@@ -5,27 +5,23 @@
     <link rel="stylesheet" href="style.css">
     <title>Rätsel2</title>
 </head>
+
 <body>
     <div class="container">
-        <div id="question-container" class="hide">
-          <div id="question">Welcher ägyptische Gott wurde als Falke dargestellt? </div>
-          <div id="answer-buttons" class="btn-grid">
-            <button class="button" onclick="window.location.href='FalschSeite.html' "> Seth </button>
-            <button class="button" onclick="window.location.href='FalschSeite.html' "> Osiris </button>
-            <button class="button" onclick="window.location.href='RichtigSeite.html'">Horus</button>
-            <button class="button" onclick="window.location.href='FalschSeite.html' ">Ptah</button>
-          </div>
-          <div id="question">Welcher ägyptische Gott wurde als Falke dargestellt? </div>
+          <div class="Frage" id="question">Welcher ägyptische Gott wurde als Falke dargestellt? </div>
           <br>
-          <h4>Seth</h4>
-          <input id="Checkbox1" type="checkbox">
-          <h4>Osiris</h4>
-          <input id="Lösung" type="checkbox">
-          <h4>Horus</h4>
-          <input id="Checkbox3" type="checkbox">
-          <h4>Ptah</h4>
-          <input id="Checkbox4" type="checkbox">
+          <br>
+           <div id="answer-buttons" class="btn-grid">
+              <button class="button" onclick="window.location.href='FalschSeite.html' "> Seth </button>
+              <button class="button" onclick="window.location.href='FalschSeite.html' "> Osiris </button>
+              <button class="button" onclick="window.location.href='RichtigSeite.html'">Horus</button>
+              <button class="button" onclick="window.location.href='FalschSeite.html' ">Ptah</button>
+          </div>
+
         </div>
-        <button onclick='check();'>Prüfe</button>
+        <button class="check" onclick='check();'>Prüfe</button>
+        <button class="button check back" onclick="window.location.href= 'MenueSeite.html'">
+          Zurück
+      </button>
 </body>
 </html>

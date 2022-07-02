@@ -18,14 +18,26 @@
             color: white;
             text-align: center;
             font-family: 'Poppins';
+            margin-right: 50%;
+            font-size: 200%;
+
             }
         .ueberschrift{
+            margin-right: 0.3%;
             font-size: 50px;
             }
         .ueberschrift4{
             font-size: 30px;
+            color: white;
+            font-family: 'Poppins';
             }
-        #button{
+        .Frage{
+                text-align: center;
+                font-size: 50px;
+                color: white;
+                font-family: 'Poppins';
+                }
+        .button{
             border-radius: 20px;
             height: 60px;
             width: 300px;
@@ -40,8 +52,10 @@
             display: block;
             margin-top: 30px;
         }
-
-        #Lösung{
+        .button:hover{
+            background-color: rgb(177, 177, 177);
+        }
+        .check{
             border-radius: 20px;
             height: 60px;
             width: 300px;
@@ -54,8 +68,34 @@
             margin-right: auto;
             border: none;
             display: block;
-            margin-top: 30px;           
+            margin-top: 80px;
         }
+
+        .check:hover{
+            background-color: black;
+            color: white;
+        }
+
+        .back{
+            margin-top: 10px;
+        }
+
+
+       .eingabefeld{
+            border-radius: 20px;
+            height: 60px;
+            width: 300px;
+            font-size: 22px;
+            font-family: 'Poppins', sans-serif ;
+            font-weight: 700;
+            background-color: white;
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            border: none;
+            display: block;          
+        }
+
         #done{
             display: flex;
         }
