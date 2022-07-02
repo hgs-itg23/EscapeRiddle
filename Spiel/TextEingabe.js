@@ -10,3 +10,11 @@ function check(){
 function reset(){
         document.getElementById('Lösung').value = '';
 }
+function master(){
+    if(document.querySelector('#MasterLösung').value =='AB'){
+        window.location.href = 'MasterRichtigSeite.html';
+    }
+}
+function resetmaster(){
+    document.getElementById('MasterLösung').value = '';
+}

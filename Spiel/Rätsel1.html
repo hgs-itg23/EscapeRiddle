@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="Lösungsspeicher.js"></script>
     <script src="enterkey.js"></script>
    <script src="TextEingabe.js"></script>
    <script src="KeyLetter.js"></script>
    <script>
-    var Lösung = 'Ödipus';
-    var keyletter = 'A';
+    localStorage.setItem('Rätsel1','true');
+    var Lösung = 'Mensch';
    </script>
   <title>Rätsel1</title>
 
 </head>
 <link rel="stylesheet" href="style.css">
-<body onload="storage();">
+<body>
     <h1 id="Text" class="ueberschrift">Sphinx:</h1>
     <br>
     <br>
@@ -24,8 +25,6 @@
         Am Abend auf Dreien.
         <br>
         Was ist das?"</h4>
-<br>
-        <h2 id="Text">Bist du fähig die zulösen? <br> Nein !? <br> Einer war jedoch fähig dies zu tun und das schon im alten Griechenland</h2>
 <br>
 <br>
 <br>

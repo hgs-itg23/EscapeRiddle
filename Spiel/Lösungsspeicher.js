@@ -1,15 +1,12 @@
-var e = 'doch';
-function checkSol(){
-    document.querySelector('#Lösung').value = e;
+function solved1(){
+    if(localStorage.getItem('solved1') == 'true'){
+        var b = localStorage.getItem('letter');
+        document.querySelector(".done1").innerHTML = b;
+    }
 }
-function windowswap(){
-    var d = document.querySelector('.done1');
-    var html = d.innerHTML;
-    if(d == 'Fertig'){
-        e = Lösung;
+function solved2(){
+    if(localStorage.getItem('solved2') == 'true'){
+        var c = localStorage.getItem('letter2');
+        document.querySelector(".done2").innerHTML = c;
     }
-    else{
-        e = 'ne';
-    }
-    window.location.href = 'Rätsel1.html';
 }
