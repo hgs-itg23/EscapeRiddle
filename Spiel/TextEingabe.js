@@ -8,14 +8,8 @@ function check(){
     }
     
 }
-document.onkeyup = enter;
-function enter(){
+function reset(){
+        document.getElementById('Lösung').value = '';
+
     
-    if(window.event.keyCode == 13){
-        check();
-        
-    }
-}
-function clear(){
-    document.getElementById('Lösung').value = '';
 }

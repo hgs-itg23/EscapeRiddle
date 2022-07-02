@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="enterkey.js"></script>
    <script src="TextEingabe.js"></script>
    <script src="KeyLetter.js"></script>
    <script>
-    let Lösung = 'Ödipus';
-    let keyletter = 'A';
+    var Lösung = 'Ödipus';
+    var keyletter = 'A';
    </script>
   <title>Rätsel1</title>
 
@@ -28,7 +29,7 @@
 <br>
 <br>
 <br>
-<input onclick='clear();' type="text" id='Lösung' onload="enter();">
+<input onclick="reset();" type="text" id='Lösung' onload="enter();">
 <button id="button" onclick="check();">
     Prüfe
 </button>
