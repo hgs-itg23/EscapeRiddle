@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+  <script src="KeyLetter.js"></script>
+  <script src="Lösungsspeicher.js"></script>
+  <script src="enterkey.js"></script>
+    <script src="MultipleChoice.js"></script>
+    <script>
+    localStorage.setItem('Rätsel5','true');
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <title>Rätsel5</title>
+</head>
+
+<body>
+    <div class="container">
+          <div class="Frage" id="question">Katzen, heutzutage findet man sie in fast jedem 5 Haushalt als Haustiere, jedoch hatten sie einen ganz anderen Status im alten Ägypten. Weißt du welchen?</div>
+          <br>
+          <br>
+           <div id="answer-buttons" class="btn-grid">
+              <button class="button" onclick="window.location.href='FalschSeite.html' ">Dämonen</button>
+              <button class="button" onclick="window.location.href='FalschSeite.html' ">Götter</button>
+              <button class="button" onclick="window.location.href='FalschSeite.html'">Feinde</button>
+              <button class="button" onclick="window.location.href='RichtigSeite.html' ">Heilige</button>
+          </div>
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <button class="button check back" onclick="window.location.href= 'MenueSeite.html'">
+          Zurück
+      </button>
+</body>
+</html>

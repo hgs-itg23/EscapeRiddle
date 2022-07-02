@@ -1,6 +1,6 @@
 
 function check(){
-    if(document.getElementById('Lösung').value == Lösung){
+    if(document.getElementById('Lösung').value == Lösung || Lösung2){
         window.location.href= 'RichtigSeite.html';
     }
     else{
