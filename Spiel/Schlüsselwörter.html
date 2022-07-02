@@ -2,10 +2,19 @@
 <html lang="en">
 <head>
     <script src="KeyLetter.js"></script>
+    <script src="Lösungsspeicher.js"></script>  
+    <script>
+        if(localStorage.getItem('Rätsel1') == 'true'){
+        localStorage.setItem('solved1','true');
+        }
+        if(localStorage.getItem('Rätsel2') == 'true'){
+        localStorage.setItem('solved2','true');
+        }
+    </script>
     <link rel="stylesheet" href="style.css">
     <title>Schlüsselwörter</title>
 </head>
-<body onload="displaystart();">
+<body>
         <h2 id="Text">Der nächste Buchstabe ist:</h2>
         <h1 id='keyletter' class="Text"> </h1>
         <br>
