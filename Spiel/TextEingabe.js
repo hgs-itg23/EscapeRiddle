@@ -1,3 +1,5 @@
+var Lösung;
+var Lösung2;
 function check(){
     if(document.querySelector('#Lösung').value == Lösung || document.querySelector('#Lösung').value == Lösung2){
         window.location.href= 'RichtigSeite.html';
