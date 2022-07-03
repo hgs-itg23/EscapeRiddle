@@ -20,6 +20,11 @@
           localStorage.setItem('letter3','O');
           localStorage.setItem('letter4','K');
           localStorage.setItem('letter5','R');
+          
+          function closeIFrame(){
+            document.querySelector('#iframe').remove();
+            window.location.href = '/WEBSITE/HAUPTSEITE.html';
+          }
     </script>
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <title>EscapeRiddle</title>
@@ -34,6 +39,6 @@
           </ul>
       </nav>
       </header>
-      <iframe src="/Spiel/Spiel.html" width="80%" height="800" name="iFrame"></iframe>
+      <iframe src="/Spiel/Spiel.html" width="80%" height="800" name="iFrame" id="iframe"></iframe>
   </body>
 </html>

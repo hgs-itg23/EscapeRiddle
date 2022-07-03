@@ -1,3 +1,3 @@
 function hauptseite(){
-    
+    parent.closeIFrame();
 }
