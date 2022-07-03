@@ -12,7 +12,7 @@ function reset(){
         document.querySelector('#Lösung').value = '';
 }
 function master(){
-    if(document.querySelector('#MasterLösung').value =='Kairo'){
+    if(document.querySelector('#MasterLösung').value =='Kairo' || document.querySelector('#MasterLösung').value =='KAIRO'){
         window.location.href = 'MasterRichtigSeite.html';
     }
     else{
