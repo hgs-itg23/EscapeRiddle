@@ -1,5 +1,5 @@
 function check(){
-    if(document.querySelector('#Lösung').value == Lösung){
+    if(document.querySelector('#Lösung').value == Lösung || document.querySelector('#Lösung').value == Lösung2){
         window.location.href= 'RichtigSeite.html';
     }
     else{
