@@ -5,7 +5,7 @@
         }
         #ueberschrift{
             text-align: center;
-            font-size: 150px;
+            font-size: 100px;
             font-family: 'Poppins';
         }
 
@@ -32,11 +32,11 @@
             font-family: 'Poppins';
             }
         .Frage{
-                text-align: center;
-                font-size: 50px;
-                color: white;
-                font-family: 'Poppins';
-                }
+            text-align: center;
+            font-size: 50px;
+            color: white;
+            font-family: 'Poppins';
+            }
         .button{
             border-radius: 20px;
             height: 60px;
@@ -113,5 +113,36 @@
             font-size: 100px;
         } 
         .geschafft{
-            font-size: 200px;
+            font-size: 50px;
+            text-align: center;
+            padding: 3%;
+        }
+        .AbstandTop{
+            display: block;
+            padding: 7%;
+        }
+
+        .Story{
+            color: white;
+            font-size: 40px;
+            text-align: center;
+            font-family: 'Poppins';
+        }
+        .Intro{
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Poppins';
+        }
+        .Masterraetsel{
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            font-family: 'Poppins';
+        }
+        .Outro{
+            color: white;
+            font-size: 50px;
+            text-align: center;
+            font-family: 'Poppins';
         }
