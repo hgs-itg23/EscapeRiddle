@@ -3,11 +3,11 @@ var statusSol2;
 var statusSol3;
 var statusSol4;
 var statusSol5;
-var b
-var c
-var d
-var e
-var f
+var b;
+var c;
+var d;
+var e;
+var f;
 function solved1(){
     if(localStorage.getItem('solved1') == 'true'){
         b = localStorage.getItem('letter');
