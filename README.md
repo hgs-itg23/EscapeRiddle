@@ -28,7 +28,7 @@ Herr Stephan Strittmatter
 Ein browserbasierter Schloss-Escaperoom, mit verschiedenen Rätseln aus ähnlichen Themengebieten zum Thema Schloss/Burg u.ä. .
 
 
-Man ließt __vielleicht__ ein paar Zahlen/Buchstaben aus einem vorgegeben Text herraus und gibt diesen als "Code" in ein Eingabefeld. So kommt man ins nächste Rätsel. Am Ende muss man einen 6-stelligen Code mithilfe eines weiteren Rätsels, was die Reihenfolge der Zahlen/Buchstaben angibt, ins "Zahlenschloss" eingeben. Diese "Keynumbers/Keyletters" bekommt der Spieler nach jedem Rätsel.
+Man ließt __vielleicht__ ein paar Zahlen/Buchstaben aus einem vorgegeben Text herraus und gibt diesen als "Code" in ein Eingabefeld. So kommt man ins nächste Rätsel. Am Ende muss man einen 5-stelligen Code mithilfe eines weiteren Rätsels, was die Reihenfolge der Zahlen/Buchstaben angibt, ins "Zahlenschloss" eingeben. Diese "Keynumbers/Keyletters" bekommt der Spieler nach jedem Rätsel.
 
 ---
 
