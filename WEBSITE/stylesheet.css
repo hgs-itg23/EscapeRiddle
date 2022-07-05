@@ -157,3 +157,19 @@ iframe{
   border: none;
   border-radius: 70px;
 }
+#textklein{
+  margin-left: auto;
+  margin: auto;
+  font-size: 150%;
+  color: white;
+  padding: 0px 300px 5px;
+}
+#Fett{
+  text-decoration: underline;
+  font-weight: bolder;
+  margin-left: auto;
+  margin: auto;
+  font-size: 200%;
+  color: white;
+  padding: 0px 300px 5px;
+}
